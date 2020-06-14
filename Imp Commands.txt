@@ -81,3 +81,15 @@ Running a container in background(Detached Mode)
 --------------------------
 --> docker container run -d <IMGAE_ID OR REPO>
 --------------------------
+
+Publishing Port
+--------------------------
+--> docker container run -d -p <PORT_NO:APP_PORT_NO> <IMGAE_ID OR REPO>
+For Example: docker container run -d -p 5010:80 aamirpinger/helloworld:latest
+--------------------------
+
+Custom container naming
+--------------------------
+--> docker container run -d -p <PORT_NO:APP_PORT_NO> <IMGAE_ID OR REPO>
+For Example: docker container run -d -p 5010:80 aamirpinger/helloworld:latest
+--------------------------

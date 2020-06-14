@@ -90,6 +90,6 @@ For Example: docker container run -d -p 5010:80 aamirpinger/helloworld:latest
 
 Custom container naming
 --------------------------
---> docker container run -d -p <PORT_NO:APP_PORT_NO> <IMGAE_ID OR REPO>
-For Example: docker container run -d -p 5010:80 aamirpinger/helloworld:latest
+--> docker container run -d --name <CUSTOM_NAME> -p <PORT_NO:APP_PORT_NO> <IMGAE_ID OR REPO>
+For Example: docker container run -d --name my_app -p 5010:80 aamirpinger/helloworld:latest
 --------------------------

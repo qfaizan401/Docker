@@ -30,3 +30,7 @@ Removing an Image
 --> docker image rm alpine:latest
 --------------------------
 
+Running a Container
+--------------------------
+
+--------------------------

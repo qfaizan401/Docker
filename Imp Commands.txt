@@ -65,4 +65,8 @@ Stop a running container
 --> docker container stop <CONTAINER_ID OR CONTAINER_NAME>
 --------------------------
 
+Start a stopped/already created container
+--------------------------
+--> docker container start <CONTAINER_ID OR CONTAINER_NAME>
+--------------------------
 

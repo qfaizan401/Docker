@@ -59,3 +59,10 @@ For Example: docker run -it aamirpinger/helloworld sh
 
 9) If any running container is exited using <ctrl + p + q> then this container will not stop automatically
 --------------------------
+
+Stop a running container
+--------------------------
+--> docker container stop <CONTAINER_ID OR CONTAINER_NAME>
+--------------------------
+
+

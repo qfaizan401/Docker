@@ -77,3 +77,7 @@ Removing a container
 Remember you can not remove up and running container
 --------------------------
 
+Running a container in background(Detached Mode)
+--------------------------
+--> docker container run -d <IMGAE_ID OR REPO>
+--------------------------

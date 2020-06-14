@@ -1,0 +1,21 @@
+Docker Important Commands
+
+Post Installation Commands
+--------------------------
+1) docker --version
+2) docker info
+3) docker version
+--------------------------
+
+Pull/Download an Image
+--------------------------
+1) From offical Repo
+--> docker image pull <repo_name>:<tag>
+For Example: docker image pull ubuntu:latest
+
+2) From Unoffical Repo
+--> docker image pull user_name/<repo_name>:<tag>
+For Example: docker image pull aamirpinger/helloworld:lastest
+
+3) You can use only <docker pull> instead of <docker image pull>
+

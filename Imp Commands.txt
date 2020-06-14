@@ -26,5 +26,7 @@ For Example: docker image pull aamirpinger/helloworld:lastest
 
 Removing an Image
 --------------------------
-1) 
+1) docker image rm <repo_name>:<tag>
+--> docker image rm alpine:latest
 --------------------------
+

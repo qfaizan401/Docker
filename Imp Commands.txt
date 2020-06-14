@@ -28,7 +28,7 @@ Removing an Image
 --------------------------
 1) docker image rm <repo_name>:<tag>
 --> docker image rm alpine:latest
-Remember that containers are made by images
+Remember you can not remove the image of up and running container
 --------------------------
 
 Running a Container
@@ -74,5 +74,6 @@ Start a stopped/already created container
 Removing a container
 --------------------------
 --> docker container rm <CONTAINER_ID OR CONTAINER_NAME>
+Remember you can not remove up and running container
 --------------------------
 

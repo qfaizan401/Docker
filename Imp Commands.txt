@@ -22,3 +22,9 @@ For Example: docker image pull aamirpinger/helloworld:lastest
 4) Docker Image List
 --> docker image ls
 --> docker images
+--------------------------
+
+Removing an Image
+--------------------------
+1) 
+--------------------------

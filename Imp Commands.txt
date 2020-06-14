@@ -40,16 +40,22 @@ For Example: docker run -it alpine sh
 --> docker run -it user_name/<repo_name> sh
 For Example: docker run -it aamirpinger/helloworld sh
 
-3) Check the number of running Containers on a system
+3) Type <exit> to exit from a running container
+
+4) Check the number of running Containers on a system
 --> docker container ls
 --> docker ps
 
-4) By Default when we exit from any running container it stopped by itself(automatically)
+5) By Default when we exit from any running container it stopped by itself(automatically)
 
-4) Check the number of all (running/stopped/paused) Containers on a system
+6) Check the number of all (running/stopped/paused) Containers on a system
 --> docker container ls -a
 
-5) Exiting from a container without stopping it
+7) Exiting from a container without stopping it
 --> ctrl + p + q
 
+8) Entering into the running container
+--> docker exec -it <CONTAINER_ID OR CONTAINER_NAME> sh
+
+9) If any running container is exited using <ctrl + p + q> then this container will not stop automatically
 --------------------------

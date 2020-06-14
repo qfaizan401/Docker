@@ -32,5 +32,11 @@ Removing an Image
 
 Running a Container
 --------------------------
+1) From offical Repo
+--> docker run -it <repo_name> sh
+For Example: docker run -it alpine sh
 
+2) From Unoffical Repo
+--> docker run -it user_name/<repo_name> sh
+For Example: docker run -it aamirpinger/helloworld sh
 --------------------------

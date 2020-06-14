@@ -42,9 +42,14 @@ For Example: docker run -it aamirpinger/helloworld sh
 
 3) Check the number of running Containers on a system
 --> docker container ls
+--> docker ps
+
+4) By Default when we exit from any running container it stopped by itself(automatically)
 
 4) Check the number of all (running/stopped/paused) Containers on a system
 --> docker container ls -a
 
+5) Exiting from a container without stopping it
+--> ctrl + p + q
 
 --------------------------
